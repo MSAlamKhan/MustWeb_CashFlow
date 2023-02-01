@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "cashflow",
+    "slug": "cashflow",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cashflow.mustwebapp"
+    },
+    
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Cashflow mobile application for android and ios",
+    "extra": {
+      "eas": {
+        "projectId": "feb6b70d-dc40-46ff-a414-6338288e4280"
+      }
+    },
+    "android": {
+      "package": "com.cashflow.mustwebapp",
+      "versionCode": 3
+    }
+  }
+}
